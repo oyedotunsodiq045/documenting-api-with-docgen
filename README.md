@@ -18,6 +18,7 @@ This is a simple step by step to getting started with DOCGEN on windows.
   - Select 'starkmart' and
   - Replace url field string: 'http://localhost/starkmart/api' with {{URL}}
 
+![Step 2](docgen-2.png)
 ![Step 2.1](docgen-2.1.png)
 ![Step 2.2](docgen-2.2.png)
 
