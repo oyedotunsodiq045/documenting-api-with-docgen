@@ -4,10 +4,11 @@ This is a simple step by step to getting started with DOCGEN on windows.
 
 ### Step 1
 
-- Open POSTMAN - Create Environment: 'starkmart'
-  - set VARIABLE: URL
-  - set INITIAL VALUE: http://localhost/starkmart/api
-  - set CURRENT VALUE: http://localhost/starkmart/api
+- Open POSTMAN 
+    - Add Environment: starkmart
+        - set VARIABLE: URL
+        - set INITIAL VALUE: http://localhost/starkmart/api
+        - set CURRENT VALUE: http://localhost/starkmart/api
 
 ![Step 1](docgen-1.png)
 
@@ -39,8 +40,8 @@ This is a simple step by step to getting started with DOCGEN on windows.
 ### Step 6
 
 - Click on the Collection created
-    * click 'Export', 
-    * select Collection v2.1 (recommended)
+    - click 'Export', 
+    - select Collection v2.1 (recommended)
 
 ![Step 6](docgen-6.png)
 
@@ -51,14 +52,14 @@ This is a simple step by step to getting started with DOCGEN on windows.
 ### Step 8
 
 - Extract, and install via terminal 
-    * Ensure you open the terminal at the path of the docgen exe file.
+    - Ensure you open the terminal at the path of the docgen exe file.
 
 ![Step 8](docgen-8.png)
 
 ### Step 9
 
 - To make HTML documentation use: 
-    * ./docgen build -i starkmart.postman_collection -o index.html.
+    - ./docgen build -i starkmart.postman_collection -o index.html.
 
 ![Step 9](docgen-9.png)
 
